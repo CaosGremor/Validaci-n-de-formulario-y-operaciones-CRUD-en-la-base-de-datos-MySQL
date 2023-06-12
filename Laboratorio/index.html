@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ES=es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form method="POST" action="formulario.php">
+    <h2>Regístrate: </h2>
+    
+        <label> Nombre </label><br><input type="text" id="nombre" name="nombre" onblur="validarCampoTexto()"class="" ><br><span id="mensaje_nombre"class="tamaño_de_mensaje"></span>
+        <br>
+        <label> Primer Apellido </label><br><input type="text" id="apellido1" name="apellido1" onblur="validarprimerapellido()" class=""><br><span id="mensaje_apellido1" class="tamaño_de_mensaje"></span>
+        <br>
+        <label> Segundo Apellido </label><br><input type="text" id="apellido2" name="apellido2" onblur="validarsegundoapellido()" class=""><br><span id="mensaje_apellido2" class="tamaño_de_mensaje"></span>
+        <br>
+        <label> Email </label><br><input type="email" id="email" name="email" onblur="validarEmail()" class=""><br><span id="mensaje_email" class="tamaño_de_mensaje"></span>
+        <br>
+        <label> Login </label><br><input type="text" id="login" name="login" onblur="validarlogin()" class=""><br><span id="mensaje_login" class="tamaño_de_mensaje"></span>
+        <br>
+        <label>Contraseña</label><br><input type="password" id="password" name="password" onblur="validarPassword()" class=""><br><span id="mensaje_password" class="tamaño_de_mensaje"></span>
+        <br>
+        
+        
+    <input class="form-btn" name="submit" type="submit" value="Enviar" />
+    <a href="datos.php" class="btn">Consulta de registros</a>
+
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

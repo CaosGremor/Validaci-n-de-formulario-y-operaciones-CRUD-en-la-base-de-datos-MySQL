@@ -1,0 +1,30 @@
+body {
+    background-image: url('./Imagen/Libros.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+table {
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: rgba(217, 156, 86, 0.564);
+    color: black;
+    font-family: "verdana" , sans-serif;
+    font-size: 14px;
+}
+
+th {
+    background-color: rgb(56, 33, 3);
+    color: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: "century gothic" , sans-serif;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 8px;
+}

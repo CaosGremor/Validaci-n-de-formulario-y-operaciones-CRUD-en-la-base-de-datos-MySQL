@@ -1,0 +1,104 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+        background-image: url('./Imagen/Library_Book_532388_1280x720.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+form h2 {
+    font-family: "century gothic" , sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: rgba(255, 255, 255, 0.956);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 30px 20px 60px 10px rgba(0, 0, 0, 0.726);
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #914b0ebd;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 250px;
+    outline: none;
+    color: white;
+    position: relative;
+    
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #914b0ebd;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 250px;
+    outline: none;
+    color: white;
+    position: relative;
+    
+}
+
+input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #914b0ebd;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 250px;
+    outline: none;
+    color: white;
+    position: relative;
+    
+}
+.form-btn {
+    size: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgba(76, 76, 76, 0.484);
+    color: rgba(199, 156, 16, 0.632);
+    border-style: solid;
+    border-color: rgba(171, 145, 13, 0.554);
+    cursor: pointer;
+    
+}
+
+.form-btn::before {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg);
+    transform: translateX(50%);
+    transition: 0.6s;
+}
+
+.form-btn:hover {
+    background: rgba(76, 76, 76, 0.484);
+    box-shadow: 0 0 15px 5px rgba(169, 116, 9, 0.623);
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+    background: rgba(53, 52, 52, 0.613);
+    color: rgba(179, 147, 19, 0.554);
+    border-style: unset;
+    cursor: pointer;
+}
+
+
